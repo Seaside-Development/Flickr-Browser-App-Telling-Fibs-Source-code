@@ -79,13 +79,15 @@ class MainActivity : BaseActivity(), GetRawData.OnDownloadComplete,
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         Log.d(TAG, "onOptionsItemSelected called")
-
-        if (item.itemId == R.id.logout) {
-            Log.i(TAG, "logout")
-            //logout the user
-            auth.signOut()
-            val logoutIntent = Intent(this@MainActivity, LoginActivity::class.java )
-            logoutIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        when (item.itemId) {
+            R.id.logout -> {
+                //logout the user
+                FirebaseAuth.getInstance().signOut()
+                val logoutIntent = Intent(this@MainActivity, LoginActivity::class.java )
+                logoutIntent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+                startActivity(logoutIntent)
+                finish()
+            }
         }
         return when (item.itemId) {
             R.id.action_search -> {
