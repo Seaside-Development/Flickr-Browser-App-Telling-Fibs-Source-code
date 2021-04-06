@@ -8,7 +8,7 @@
     android:padding="8dp"
     android:paddingBottom="16dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="academy.learnprogramming.flickrbrowser.PhotoDetailsActivity"
+    tools:context="com.natebrate.flickrbrowser.PhotoDetailsActivity"
     tools:showIn="@layout/activity_photo_details">
 
     <androidx.cardview.widget.CardView

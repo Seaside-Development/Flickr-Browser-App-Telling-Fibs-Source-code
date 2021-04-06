@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1048015058681",
+    "project_id": "androidapp-bbcdc",
+    "storage_bucket": "androidapp-bbcdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048015058681:android:fc0b6fd75438037c3f1428",
+        "android_client_info": {
+          "package_name": "com.natebrate.flickrbrowser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048015058681-bn3npbqn6vi2svrm1bvkp3th9j9dbf7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdc7LWVLYKSWAkhwTHHKI5o7Up1cI3N1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048015058681-bn3npbqn6vi2svrm1bvkp3th9j9dbf7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

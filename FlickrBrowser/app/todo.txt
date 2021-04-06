@@ -1,0 +1,10 @@
+@todo Lecture20210405
+    1. Try to build, understand and run the login app
+    2. Understand how to use both HTTPUrlConnection and Volley for
+    sending HTTP requests
+    3. Try PUT/POST… methods for Volley
+    4. Explore the disk/memory cache function of Volley
+    5. Understand how to use JSON/Gson, serialize/deserialize
+    6. Add “Task” Class, and related logic to the login app, check and make
+    7. sure the app can communicate with the web service
+    Implement more functions, e.g. register a new user.
