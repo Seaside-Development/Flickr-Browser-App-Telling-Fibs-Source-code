@@ -3,6 +3,8 @@
 buildscript {
     ext.kotlin_version = '1.3.70'
     repositories {
+        mavenCentral()
+        gradlePluginPortal()
         jcenter()
         google()  // Google's Maven repository
     }
@@ -10,6 +12,7 @@ buildscript {
         classpath 'com.android.tools.build:gradle:4.1.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.google.gms:google-services:4.3.5'
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.12.10, 0.99.99]'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -19,6 +22,7 @@ buildscript {
 allprojects {
     repositories {
         google()
+        mavenCentral()
         jcenter()
     }
 }

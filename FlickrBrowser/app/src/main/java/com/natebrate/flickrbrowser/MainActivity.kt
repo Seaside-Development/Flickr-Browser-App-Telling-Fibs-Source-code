@@ -1,5 +1,6 @@
 package com.natebrate.flickrbrowser
 
+import com.onesignal.OneSignal
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -14,6 +15,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.content_main.*
 
+const val ONESIGNAL_APP_ID = "c8e743d2-0ecf-473b-8cac-eef26ef3d392"
+
 class MainActivity : BaseActivity(), GetRawData.OnDownloadComplete,
         GetFlickrJsonData.OnDataAvailable,
         RecyclerItemClickListener.OnRecyclerClickListener {
@@ -25,8 +28,13 @@ class MainActivity : BaseActivity(), GetRawData.OnDownloadComplete,
 
     override fun onCreate(savedInstanceState: Bundle?) {
         Log.d(TAG, "onCreate called")
-        super.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceState)// Logging set to help debug issues, remove before releasing your app.
+        OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE)
+
         setContentView(R.layout.activity_main)
+        // OneSignal Initialization
+        OneSignal.initWithContext(this)
+        OneSignal.setAppId(ONESIGNAL_APP_ID)
 
         //startActivity(Intent(this@MainActivity, LoginActivity::class.java))
 
