@@ -15,6 +15,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.content_main.*
 
+//Pull service
 const val ONESIGNAL_APP_ID = "c8e743d2-0ecf-473b-8cac-eef26ef3d392"
 
 class MainActivity : BaseActivity(), GetRawData.OnDownloadComplete,
