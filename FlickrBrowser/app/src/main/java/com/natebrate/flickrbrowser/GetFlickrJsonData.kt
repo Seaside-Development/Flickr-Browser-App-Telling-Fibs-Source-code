@@ -5,10 +5,6 @@ import android.util.Log
 import org.json.JSONException
 import org.json.JSONObject
 
-/**
- * Created by timbuchalka for Android Oreo with Kotlin course
- * from www.learnprogramming.academy
- */
 class GetFlickrJsonData(private val listener: OnDataAvailable) : AsyncTask<String, Void, ArrayList<Photo>>() {
 
     private val TAG = "GetFlickrJsonData"

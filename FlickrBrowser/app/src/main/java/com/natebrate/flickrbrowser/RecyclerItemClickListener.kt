@@ -8,10 +8,6 @@ import android.view.MotionEvent
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 
-/**
- * Created by timbuchalka for Android Oreo with Kotlin course
- * from www.learnprogramming.academy
- */
 class RecyclerItemClickListener(context: Context, recyclerView: RecyclerView, private val listener: OnRecyclerClickListener)
     : RecyclerView.SimpleOnItemTouchListener() {
 
