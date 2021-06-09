@@ -3,9 +3,11 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d6d1b5ff8e7382c52f9f38f93b4c2200/jetified-firebase-components-16.1.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/896d997c19ae0689de703bd8958fa2a6/jetified-firebase-components-16.1.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/16b30d3ae3c17f5e58eda6413f3f3fd0/jetified-firebase-components-16.1.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/16b30d3ae3c17f5e58eda6413f3f3fd0/jetified-firebase-components-16.1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/16b30d3ae3c17f5e58eda6413f3f3fd0/jetified-firebase-components-16.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ba783060804d61a4cd92d79dcdae2a2e/transformed/jetified-firebase-components-16.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/36a1fbd8851554dadff1164b7036a343/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/36a1fbd8851554dadff1164b7036a343/transformed/jetified-firebase-components-16.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/36a1fbd8851554dadff1164b7036a343/transformed/jetified-firebase-components-16.1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-components/16.1.0/3a9c1cc3126d1c3fa181be1692de99be7cfe3b83/firebase-components-16.1.0-javadoc.jar!/" />

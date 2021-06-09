@@ -2,11 +2,15 @@ package com.natebrate.flickrbrowser
 
 import android.app.SearchManager
 import android.content.Context
+import android.net.ConnectivityManager
+import android.net.NetworkInfo
+import android.net.wifi.WifiManager
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.util.Log
 import android.view.Menu
 import android.widget.SearchView
+
 
 class SearchActivity : BaseActivity() {
     private val TAG = "SearchActivity"
